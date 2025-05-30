@@ -49,7 +49,7 @@ class MeterEventStream
         ]);
     }
 }
-
+    public function __construct($apiKey)
 // Usage
 $apiKey = '{{API_KEY}}';
 $customerId = '{{CUSTOMER_ID}}';
